@@ -2,9 +2,188 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Блог</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header role="banner">
+        <h1>Название блога</h1>
+        <section>
+            <article>
+                Слоган.
+            </article>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="http://google.ru/1">Пункт меню</a></li>
+                <li><a href="http://google.ru/2">Пункт меню</a></li>
+                <li><a href="http://google.ru/3">Пункт меню</a></li>
+                <li><a href="http://google.ru/4">Пункт меню</a></li>
+                <li><a href="http://google.ru/5">Пункт меню</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main role="main">
+        <section>
+            <header>
+                <h1>Новости</h1>
+            </header>
+            <article>
+                <header>
+                    <h1>Заголовок статьи</h1>
+                    <time datetime="2016-11-14Т20:26:32.001+03:00">12 ноября</time>
+                </header>
+                <ul>
+                    <li><a href=""></a>Раздел статьи 1</li>
+                    <li><a href=""></a>Раздел статьи 2</li>
+                </ul>
+                <section>
+                    <header>
+                        <h2>Заголовок раздела 1</h2>
+                    </header>
+                    <figure>
+                        <img src="" alt="" title="">
+                        <figcaption> Подпись к картинке</figcaption>
+                    </figure>
+                    <p>
+                        President-elect Donald Trump named campaign chairman Stephen Bannon as chief
+                        strategist at the White House. A chorus of advocacy groups,
+                        commentators and congressional Democrats denounced Bannon as
+                        a proponent of racist, anti-Semitic and misogynistic views.
+                    </p>
+                </section>
+                <aside>Заметка на полях</aside>
+                <section>
+                    <header>
+                        <h2>Заголовок раздела 2</h2>
+                    </header>
+                    <p>
+                        President-elect Donald Trump named campaign chairman Stephen Bannon as chief
+                        strategist at the White House. A chorus of advocacy groups,
+                        commentators and congressional Democrats denounced Bannon as
+                        a proponent of racist, anti-Semitic and misogynistic views.
+                    </p>
+                    <p>
+                        President-elect Donald Trump named campaign chairman Stephen Bannon as chief
+                        strategist at the White House. A chorus of advocacy groups,
+                        commentators and congressional Democrats denounced Bannon as
+                        a proponent of racist, anti-Semitic and misogynistic views.
+                    </p>
+                    <p>
+                        President-elect Donald Trump named campaign chairman Stephen Bannon as chief
+                        strategist at the White House. A chorus of advocacy groups,
+                        commentators and congressional Democrats denounced Bannon as
+                        a proponent of racist, anti-Semitic and misogynistic views.
+                    </p>
+                </section>
+
+                <footer>
+                     <p>Автор: Иван Петров</p>
+                     <p>Теги: тег1, тег2</p>
+                </footer>
+                <section>
+                    <h3>Комментарии</h3>
+                    <article>
+                        <header>
+                            <p>Автор комментария: Александр Петров</p>
+                            <time datetime="2016-11-14Т20:26:32.001+03:00">2 часа назад</time>
+                        </header>
+                        <article>
+                            Текст комментария
+                        </article>
+                        <footer>
+                            <p>Действия:
+                                <a href="#">Ссылка на комментарий</a>
+                                <a href="#">Ответить</a>
+                                <a href="#">Скрыть</a>
+                            </p>
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                            <p>Автор комментария: Александр Петров</p>
+                            <time datetime="2016-11-14Т20:26:32.001+03:00">2 часа назад</time>
+                        </header>
+                        <article>
+                            Текст комментария
+                        </article>
+                        <footer>
+                            <p>Действия:
+                                <a href="#">Ссылка на комментарий</a>
+                                <a href="#">Ответить</a>
+                                <a href="#">Скрыть</a>
+                            </p>
+                        </footer>
+                    </article>
+                    <article>
+                        <header>
+                            <p>Автор комментария: Александр Петров</p>
+                            <time datetime="2016-11-14Т20:26:32.001+03:00">2 часа назад</time>
+                        </header>
+                        <article>
+                            Текст комментария
+                        </article>
+                        <footer>
+                            <p>Действия:
+                                <a href="#">Ссылка на комментарий</a>
+                                <a href="#">Ответить</a>
+                                <a href="#">Скрыть</a>
+                            </p>
+                        </footer>
+                    </article>
+                    <section>
+                        <header>
+                            <h3>Новый комментарий</h3>
+                        </header>
+                        <form action="" name="newComment" method="get">
+                            <input type="text" name="login" required placeholder="Введите ваш логин"><br>
+                            <input type="email" name="email" placeholder="email"><br>
+                            <input type="url" placeholder="Адрес сайта"><br>
+                            <textarea name="comment" required rows="10" cols="100" placeholder="Текст комментария"></textarea>
+                            <button>отправить</button>
+                        </form>
+                    </section>
+                </section>
+                <details>
+                    <summary>Дополнительная информация</summary>
+                    <p>
+                        President-elect Donald Trump named campaign chairman Stephen Bannon as chief
+                        strategist at the White House. A chorus of advocacy groups,
+                        commentators and congressional Democrats denounced Bannon as
+                        a proponent of racist, anti-Semitic and misogynistic views.
+                    </p>
+                </details>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="" class="class">Пункт меню</a></li>
+                <li><a href="" class="class">Пункт меню</a></li>
+                <li><a href="" class="class">Пункт меню</a></li>
+                <li><a href="" class="class">Пункт меню</a></li>
+                <li><a href="" class="class">Пункт меню</a></li>
+            </ul>
+        </nav>
+        <details>
+            <summary>Дополнительная информация</summary>
+            <p>
+                President-elect Donald Trump named campaign chairman Stephen Bannon as chief
+                strategist at the White House. A chorus of advocacy groups,
+                commentators and congressional Democrats denounced Bannon as
+                a proponent of racist, anti-Semitic and misogynistic views.
+            </p>
+        </details>
+    </aside>
+
+    <footer>
+        © Авторский блог
+        <address>
+            г. Москва, ул. Академика Королева, д. 12
+        </address>
+    </footer>
 </body>
 </html>
