@@ -3,191 +3,58 @@
     <head>
         <meta charset="UTF-8">
         <title>Название блога</title>
-        <link rel="stylesheet" href="./style.css">
+        <style>
+            .btn{
+                display: block;
+                width: 200px;
+                height: 100px;
+                margin-bottom: 20px;
+                border-radius: 20px;
+                font-family: sans-serif;
+                font-size: 40px;
+                line-height: 100px;
+                font-weight: bold;
+                text-align: center;
+                text-decoration: none;
+                color: #888;
+
+                text-shadow: -1px -1px 1px #000;
+                              1px  1px 1px #fff;
+
+                -webkit-box-shadow: 10px 7px 20px #333;
+                -moz-box-shadow: 10px 7px 20px #333;
+                box-shadow: 10px 7px 20px #333;
+            }
+            .btn:active{
+                position: relative;
+                top: 1px;
+                -wekit-box-shadow: 10px 6px 20px #333;
+                -moz-box-shadow: 10px 6px 20px #333;
+                box-shadow: 10px 6px 20px #333;
+            }
+            .btn-a1{
+                background-color: hsl(0, 50%, 50%);
+            }
+            .btn-a1:hover{
+                background-color: hsl(0, 50%, 35%);
+            }
+            .btn-a2{
+                background-color: hsl(120, 50%, 50%);
+            }
+            .btn-a2:hover{
+                background-color: hsl(120, 50%, 35%);
+            }
+            .btn-a3{
+                background-color: hsl(240, 50%, 50%);
+            }
+            .btn-a3:hover{
+                background-color: hsl(240, 50%, 35%);
+            }
+        </style>
     </head>
     <body>
-        <div class="wrapper">
-            <header role="banner">
-                <h1>Название блога</h1>
-                        <p>Слоган: свистать всех наверх!</p>
-                <nav id="mainMenu">
-                    <ul>
-                        <li><a href="http://google.ru/1">Пункт главного меню</a></li>
-                        <li><a href="http://google.ru/2">Пункт главного меню</a></li>
-                        <li><a href="http://google.ru/3">Пункт главного меню</a></li>
-                        <li><a href="http://google.ru/4">Пункт главного меню</a></li>
-                        <li><a href="http://google.ru/5">Пункт главного меню</a></li>
-                    </ul>
-                </nav>
-            </header>
-
-            <aside>
-                <section id="secondInfo">
-                    <header>
-                        <h4>Заголовок дополнительной информации</h4>
-                    </header>
-                    <ul>
-                        <li><a href="" class="class">Пункт доп меню</a></li>
-                        <li><a href="" class="class">Пункт доп меню</a></li>
-                        <li><a href="" class="class">Пункт доп меню</a></li>
-                        <li><a href="" class="class">Пункт доп меню</a></li>
-                        <li><a href="" class="class">Пункт доп меню</a></li>
-                    </ul>
-                </section>
-                <details>
-                    <summary>Дополнительная информация</summary>
-                    <p>
-                        President-elect Donald Trump named campaign chairman Stephen Bannon as chief
-                        strategist at the White House. A chorus of advocacy groups,
-                        commentators and congressional Democrats denounced Bannon as
-                        a proponent of racist, anti-Semitic and misogynistic views.
-                    </p>
-                </details>
-            </aside>
-
-            <main role="main">
-                <section>
-                    <header>
-                        <h1>Посты</h1>
-                    </header>
-                    <article>
-                        <header>
-                            <h1>Заголовок поста 1</h1>
-                            <time datetime="2016-11-14Т20:26:32.001+03:00">12 ноября</time>
-                        </header>
-                        <ul>
-                            <li><a href="#1">Раздел поста 1</a></li>
-                            <li><a href="#2">Раздел поста 2</a></li>
-                        </ul>
-                        <section>
-                            <header>
-                                <h2><a name="1">Заголовок раздела поста 1</a></h2>
-                            </header>
-                            <figure>
-                                <img class="mainPostI" src="./img/yosemite-3.jpg" alt="Изображение природы" title="Изображение природы">
-                                <figcaption>Изображение природы</figcaption>
-                            </figure>
-                            <p>
-                                President-elect Donald Trump named campaign chairman Stephen Bannon as chief
-                                strategist at the White House. A chorus of advocacy groups,
-                                commentators and congressional Democrats denounced Bannon as
-                                a proponent of racist, anti-Semitic and misogynistic views.
-                            </p>
-                        </section>
-                        <aside>Заметка на полях</aside>
-                        <section>
-                            <header>
-                                <h2><a name="2">Заголовок раздела поста 2</a></h2>
-                            </header>
-                            <p>
-                                President-elect Donald Trump named campaign chairman Stephen Bannon as chief
-                                strategist at the White House. A chorus of advocacy groups,
-                                commentators and congressional Democrats denounced Bannon as
-                                a proponent of racist, anti-Semitic and misogynistic views.
-                            </p>
-                            <p>
-                                President-elect Donald Trump named campaign chairman Stephen Bannon as chief
-                                strategist at the White House. A chorus of advocacy groups,
-                                commentators and congressional Democrats denounced Bannon as
-                                a proponent of racist, anti-Semitic and misogynistic views.
-                            </p>
-                            <p>
-                                <mark>President-elect Donald Trump named campaign chairman Stephen Bannon as chief
-                                strategist at the White House. A chorus of advocacy groups,
-                                commentators and congressional Democrats denounced Bannon as
-                                a proponent of racist, anti-Semitic and misogynistic views.</mark>
-                            </p>
-                        </section>
-
-                        <footer>
-                             <p>Автор: Иван Петров</p>
-                             <p>Теги: тег1, тег2</p>
-                        </footer>
-                        <section id="comments">
-
-                            <header>
-                                <h3>Комментарии</h3>
-                                <p>Количество: 3</p>
-                            </header>
-
-                            <article>
-                                <header>
-                                    <p>Автор комментария: Александр Петров</p>
-                                    <time datetime="2016-11-14Т20:26:32.001+03:00">2 часа назад</time>
-                                </header>
-                                    <p>Текст комментария</p>
-                                <footer>
-                                    <p>Действия:
-                                        <a href="#">Ссылка на комментарий</a>
-                                        <a href="#">Ответить</a>
-                                        <a href="#">Скрыть</a>
-                                    </p>
-                                </footer>
-                            </article>
-
-                            <article>
-                                <header>
-                                    <p>Автор комментария: Александр Петров</p>
-                                    <time datetime="2016-11-14Т20:26:32.001+03:00">2 часа назад</time>
-                                </header>
-                                <p>Текст комментария</p>
-                                <footer>
-                                    <p>Действия:
-                                        <a href="#">Ссылка на комментарий</a>
-                                        <a href="#">Ответить</a>
-                                        <a href="#">Скрыть</a>
-                                    </p>
-                                </footer>
-                            </article>
-
-                            <article>
-                                <header>
-                                    <p>Автор комментария: Александр Петров</p>
-                                    <time datetime="2016-11-14Т20:26:32.001+03:00">2 часа назад</time>
-                                </header>
-                                <p>Текст комментария</p>
-                                <footer>
-                                    <p>Действия:
-                                        <a href="#">Ссылка на комментарий</a>
-                                        <a href="#">Ответить</a>
-                                        <a href="#">Скрыть</a>
-                                    </p>
-                                </footer>
-                            </article>
-
-                            <section id="addComment">
-                                <header>
-                                    <h3>Новый комментарий</h3>
-                                </header>
-                                <form action="" name="newComment" method="get">
-                                    <input type="text" name="login" required placeholder="Введите ваш логин"><br>
-                                    <input type="email" name="email" placeholder="email"><br>
-                                    <input type="url" placeholder="Адрес сайта"><br>
-                                    <textarea name="comment" required rows="10" cols="100" placeholder="Текст комментария"></textarea>
-                                    <br>
-                                    <button>отправить</button>
-                                </form>
-                            </section>
-                        </section>
-                        <details>
-                            <summary>Дополнительная информация</summary>
-                            <p>
-                                President-elect Donald Trump named campaign chairman Stephen Bannon as chief
-                                strategist at the White House. A chorus of advocacy groups,
-                                commentators and congressional Democrats denounced Bannon as
-                                a proponent of racist, anti-Semitic and misogynistic views.
-                            </p>
-                        </details>
-                    </article>
-                </section>
-            </main>
-
-            <footer role="contentinfo">
-                © Авторский блог
-                <address>
-                    г. Москва, ул. Академика Королева, д. 12
-                </address>
-            </footer>
-        </div>
+        <a class="btn btn-a1" href="index.html">Кнопка 1</a>
+        <a class="btn btn-a2" href="index.html">Кнопка 2</a>
+        <a class="btn btn-a3" href="index.html">Кнопка 3</a>
     </body>
 </html>
