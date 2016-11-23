@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .block{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            resize: both;
+            overflow: hidden;
+        }
+        .one{
+            -o-background-image: linear-gradient(red, yellow, green);
+            -webkit-background-image: linear-gradient(red, yellow, green);
+            background-image: linear-gradient(red, yellow, green);
+        }
+        .two{
+            -o-background-image: linear-gradient(to top right, red, green);
+            -webkit-background-image: linear-gradient(to top right, red, green);
+            background-image: linear-gradient(to top right, red, green);
+        }
+        .three{
+            -o-background-image: linear-gradient(to top, red, blue 30%, green 60%, yellow);
+            -webkit-background-image: linear-gradient(to top, red, blue 30%, green 60%, yellow);
+            background-image: linear-gradient(to top, red, blue 30%, green 60%, yellow);
+        }
+        .four{
+            -o-background-image: linear-gradient(99deg, red, blue 40px, green 200px, yellow);
+            -webkit-background-image: linear-gradient(99deg, red, blue 40px, green 200px, yellow);
+            background-image: linear-gradient(99deg, red, blue 40px, green 200px, yellow);
+        }
+        .one{
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+            background: #ff3019; /* Old browsers */
+            background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #ff3019 0%,#cf0404 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+
+        }
+        .two{
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+            background: #959595; /* Old browsers */
+            background: -moz-linear-gradient(top,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+
+        }
+        .three{
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
+            background: #d2ff52; /* Old browsers */
+            background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+
+        }
+        .four{
+            background-color: #6d695c;
+            background-image:
+                    repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+                    repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+                    linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+                    linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+            background-size: 70px 120px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="block one"></div>
+<div class="block two"></div>
+<div class="block three"></div>
+<div class="block four"></div>
+<h1>Ударный шрифт</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A debitis delectus dolores est facilis hic incidunt mollitia neque obcaecati officia provident, quidem vero? Error excepturi illo impedit minima nisi saepe.</p>
+</body>
+</html>
